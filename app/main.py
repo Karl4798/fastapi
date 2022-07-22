@@ -26,5 +26,4 @@ app.include_router(auth.router)
 
 @app.get("/")
 def root():
-    return {"message": "Welcome to my Python API on Heroku!"}
-    # return {"message": "Welcome to my Python API!"}
+    return {"message": "Welcome to my Python API!"}
